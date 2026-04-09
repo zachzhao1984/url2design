@@ -9,6 +9,9 @@
     "preview": "vp preview",
     "prepare": "vp config"
   },
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  },
   "devDependencies": {
     "typescript": "~6.0.2",
     "vite": "catalog:",
