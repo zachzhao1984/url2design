@@ -17,13 +17,28 @@ app.innerHTML = `
   <div class="page-shell">
     <header class="topbar">
       <div class="topbar-inner">
-        <p class="brand">url2design</p>
-        <p class="topbar-copy">Google Stitch DESIGN.md extractor</p>
+        <p class="brand">URL2DESIGN.md</p>
+        <a
+          class="topbar-copy"
+          href="https://stitch.withgoogle.com/docs/design-md/overview"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Google Stitch DESIGN.md
+        </a>
       </div>
     </header>
 
     <main>
       <section class="hero-section">
+        <div class="hero-ambient" aria-hidden="true">
+          <div class="hero-orb hero-orb-1"></div>
+          <div class="hero-orb hero-orb-2"></div>
+          <div class="hero-orb hero-orb-3"></div>
+          <div class="hero-beam"></div>
+          <div class="hero-grid"></div>
+        </div>
+
         <div class="hero-content">
           <p class="eyebrow">URL to Stitch DESIGN.md</p>
           <h1>Translate any web URL to <code>DESIGN.md</code>.</h1>
