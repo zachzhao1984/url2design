@@ -1,3 +1,0 @@
-scopes:
-    - name: src
-      description: TypeScript source files and entry points in src/

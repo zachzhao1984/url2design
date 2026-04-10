@@ -40,7 +40,6 @@ app.innerHTML = `
         </div>
 
         <div class="hero-content">
-          <p class="eyebrow">URL to Stitch DESIGN.md</p>
           <h1>Translate any web URL to <code>DESIGN.md</code>.</h1>
           <form id="design-form" class="generator-form" novalidate>
             <label class="sr-only" for="website-url">Website URL</label>
